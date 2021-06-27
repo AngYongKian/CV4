@@ -12,8 +12,17 @@ hr{
     margin: 100px auto;
 }
 
+.first-hr{
+    
+    border-style: dotted none none;
+    margin-bottom: 0;
+    border:
+
+}
+
 .top-container{
     background-color: #DBE6FD;
+    background-image: linear-gradient(to bottom, #dbe6fd, #bfdcfd, #9bd3fb, #6dcbf5, #12c3eb);
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -24,6 +33,7 @@ hr{
 
 .middle-container{
     background-color:#47597E;
+    background-image: linear-gradient(to bottom, #12c3eb, #33a7d4, #428cb9, #48729c, #47597e);
     color: #CAF7E3;
     padding: 100px;
 }
@@ -58,6 +68,7 @@ hr{
 
 .bottom-container{
     background-color: #DBE6FD;
+    background-image: linear-gradient(to bottom, #47597e, #6a7a9c, #8e9dbc, #b4c1dc, #dbe6fd);
     padding-top:20px ;
 }
 
